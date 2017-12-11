@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="login-wrapper">
+        <form action="/login" enctype="multipart/form-data" method="post">
+            <p>
+                <label for="nickname">Nickname:</label>
+                <input type="text" id="nickname" name="nickname">
+            </p>
+            <p>
+                <label for="avatar">Upload your avatar(optional)</label>
+                <input type="file" id="avatar" name="avatar" accept="image/*,image/jpeg">
+            </p>
+            <p><input type="submit" value="Login"></p>
+        </form>
+    </div>
+</body>
+</html>
