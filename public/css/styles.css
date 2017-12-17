@@ -84,3 +84,5 @@ p {padding: 10px 5px;}
 #messages {height: 90%; overflow-y: auto;}
 #messages li { padding: 5px 10px; }
 #messages li:nth-child(odd) { background: #eee; }
+
+#error-block {color: #ff0000;}
